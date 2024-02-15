@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/index2.CSS">
+</head>
+<body>
+    <header><h1>FUSSBALL-WEBSITE</h1></header>
+    <!--<nav>
+        <a href="#">Home</a> 
+        <a href="#">Noticias</a>
+        <a href="#">Contactos</a>
+        <a href="#">Sobre mi</a>
+    </nav>-->
+
+    <nav>
+        <ul>
+          <a href="#"><li><span>Ligas y Torneos</span></li></a>
+          <a href="#"><li><span>Partidos</span></li></a>
+          <a href="#"> <li><span>Equipos</span></li></a>
+          <a href="#"><li><span>Traspasos</span></li></a>
+        </ul>
+    </nav>
+
+    <div  class="row">
+        <aside>
+            <h2>Contenido extra</h2>
+            <p>
+                Historia y evolución del fútbol.
+                <br><br>
+                Reglas y normativas del juego.
+                <br><br>
+                Biografías de jugadores legendarios.
+                <br><br>
+                Análisis de entrenadores influyentes.
+                <br><br>
+                Tácticas y estrategias de juego.
+                <br><br>
+                Curiosidades y anécdotas del mundo del fútbol.
+                <br><br>
+                Tecnología aplicada al deporte.
+                <br><br>
+                Impacto cultural y social del fútbol.
+                <br><br>
+                Desarrollo del fútbol femenino.
+                <br><br>
+                Importancia del fútbol en la formación de jóvenes.
+                <br><br>
+                Salud, nutrición y rendimiento deportivo.
+                <br><br>
+                Aspectos económicos del fútbol, como transferencias y patrocinios.
+
+            </p>
+        </aside>
+        <section>
+            <h1>Noticias</h1>
+        </section>
+    </div>
+
+    <footer id="div2">
+        <h2>Daniel Mendez&nbsp;&nbsp;&nbsp;&nbsp;2024 &#169</h2>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/index2.CSS">
+</head>
+<body>
+    <header><h1>FUSSBALL-WEBSITE</h1></header>
+    <!--<nav>
+        <a href="#">Home</a> 
+        <a href="#">Noticias</a>
+        <a href="#">Contactos</a>
+        <a href="#">Sobre mi</a>
+    </nav>-->
+
+    <nav>
+        <ul>
+          <a href="#"><li><span>Ligas y Torneos</span></li></a>
+          <a href="#"><li><span>Partidos</span></li></a>
+          <a href="#"> <li><span>Equipos</span></li></a>
+          <a href="#"><li><span>Traspasos</span></li></a>
+        </ul>
+    </nav>
+
+    <div  class="row">
+        <aside>
+            <h2>Contenido extra</h2>
+            <p>
+                Historia y evolución del fútbol.
+                <br><br>
+                Reglas y normativas del juego.
+                <br><br>
+                Biografías de jugadores legendarios.
+                <br><br>
+                Análisis de entrenadores influyentes.
+                <br><br>
+                Tácticas y estrategias de juego.
+                <br><br>
+                Curiosidades y anécdotas del mundo del fútbol.
+                <br><br>
+CSS
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+nav ul a{
+    justify-content: space-around;
+    text-align: center;
+    flex: auto;
+     text-decoration: none;
+}
+nav ul{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+
+nav ul a li button span{
+    cursor: pointer;
+}
+
+nav ul a li {
+    color: white;
+    padding: 10px;
+    background-color: #333;
+    font-size: 20px;
+    border: 1px solid 1;
+    text-align: center;
+    flex: auto;
+}
+
+nav ul a li:hover{
+    background-color: rgb(255, 153, 0);
+    color: aqua;
+    transition: 0.5s;
+    border-radius: -5px;
+    border-color: red;
+}
+
+header{
+    padding: 50px;
+    background-image: url(../CSS/campo-futbol-arriba_68747-92.avif);
+    text-align: center;
+    background-position: center ;
+    background-size: cover;
+    font-size: 1.5rem;
+    color: rgba(255,255, 255, 0.5);
+}
+
+/*nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}*/
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    /*flex: 30px;*/
+    flex: 30%;
+    background-color: beige;
+    padding: 10px;
+}
+
+section{
+    flex: 70%;
+    background-color: navajowhite;
+    color: black;
+    padding: 10px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 700px){
+    nav .row{
+        flex-direction: column;
+    }
+}
