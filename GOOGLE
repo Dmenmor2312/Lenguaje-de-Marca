@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador Google - Daniel Mendez</title>
+    <style>
+        strong{font-size: 60px; font-family:'Prouct Sans',Arial,sans-serif;}
+        a{color: rgb(7, 143, 221);
+        -color: white;
+	    -webkit-text-stroke: 1px #F8F8F8;
+	    text-shadow: 0px 2px 16px red;}
+        b{color: rgb(247, 29, 29); 
+        -color: white;
+	    -webkit-text-stroke: 1px #F8F8F8;
+	    text-shadow: 0px 2px 16px red;}
+        c{color: rgb(255, 255, 97);  
+        -color: white; 
+        -webkit-text-stroke: 1px #F8F8F8; 
+        text-shadow: 0px 2px 16px red;}
+        d{color: rgb(21, 241, 21);  
+        -color: white;
+	    -webkit-text-stroke: 1px #F8F8F8;
+	    text-shadow: 0px 2px 16px red;}
+        body:hover{background-color: rgb(255, 234, 196);}
+        .Buscador:hover {box-shadow: 0 6px 16px rgb(5, 255, 5); 
+        transition: all 3s ease;}
+        .Buscador1:hover {box-shadow: 0 6px 16px rgb(45, 0, 245); 
+        transition: all 3s ease;}
+
+    </style>
+</head>
+<body>
+    <center>
+     <form action="https://www.google.com/search" method="GET" target="_blank">
+        <br><br><br>
+        <strong><a>G</a><b>o</b><c>o</c><a>g</a><d>l</d><b>e</b></strong>
+        <input type="search" class="Buscador1" name="q" style="border: none; background-color: rgb(147, 255, 255); font-size: 20px; border-radius: 10px;" placeholder="Daniel Mendez Morata">
+        <input type="submit" class="Buscador" value="Buscar" style="border: none; background-color: rgb(7, 126, 7); color: rgb(255, 254, 254); font-size: 20px; border-radius: 10px;">
+     </form>
+    </center>
+</body>
+</html>
