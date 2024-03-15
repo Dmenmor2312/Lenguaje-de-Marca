@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /*background-image: url(https://i.giphy.com/bglRR9iYQYMqk.gif);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: aqua;
+}
+nav ul a{
+    justify-content: space-around;
+    text-align: center;
+    flex: auto;
+     text-decoration: none;
+}
+nav ul{
+    padding: 0px;
+    list-style: none;
+    display: flex;
+}
+
+nav ul a li button span{
+    cursor: pointer;
+}
+
+nav ul a li {
+    color: black;
+   
+    padding: 10px;
+    background-color: bisque;
+    font-size: 20px;
+    border: 1px solid  black;
+    text-align: center;
+    flex: auto;
+}
+
+nav ul a li:hover{
+    background-color: rgb(255, 153, 0);
+    color: aqua;
+    border-color: red;
+    border-radius: 15px;
+    box-shadow: 5px red;
+}
