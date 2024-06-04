@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav{
+    text-align: center;
+    background-color: rgb(155, 176, 247);
+    width: 100%;
+}
+.container{
+	background-image: url(Captura.PNG);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+.menu{
+	display: flexbox;
+	flex-wrap: wrap;
+	list-style: none;
+	flex: auto;
+}
+.menu li{
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+	padding: 2px;
+}
+
+.menu li:hover ul{
+	display: block;
+}
+
+.menu li ul{
+	display: none;
+	position: absolute;
+	background-position: 2px;
+	background-color: rgb(155, 176, 247,0.8);
+	border-radius: 10px;
+	border: 1px solid blue;
+}
+
+.menu ul div a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+
+.menu li a{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+}
+
+aside{
+	min-width: 50%;
+	align-items: center;
+}
+section{
+	/*background-color: rgb(22,15, 159);
+	color: white;*/
+	padding: 10px;
+    text-align: center;
+	flex: 50%;
+	font-size: 17.4px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(22, 15, 159);
+	color: white;
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 700px){
+    nav .row{
+        flex-direction: column;
+    }
+}
