@@ -1,0 +1,7 @@
+1- Cita ejemplos de preprocesadores y que ventajas/utilidad aportan
+2- Si el tamaño por defecto de la fuente en html es 16px y dentro entre un div con font-size 2.5 rem, en caso de haber otro div dentro de este
+	a) ¿A cuántos px equivale configurar este último div a 0.5 em?
+	b) ¿Y si lo configuramos a 0.5 rem?
+3- Describe en qué consisten los entornos orperacional y analítico, y en cual de ellos se enmarcam las técnicas de data minning y big data
+4- Explica lo que sepas acerca de los "ERP"
+5- ¿Para qué sirve la propiedad z-index? Pon un ejemplo de cado de uso
